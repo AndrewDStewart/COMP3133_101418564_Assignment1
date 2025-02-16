@@ -1,3 +1,9 @@
+/*
+COMP3133
+Assignmennt 1
+Andrew Stewart
+101418564
+*/
 const { gql } = require('apollo-server-express');
 
 const typeDefs = gql`

@@ -1,3 +1,9 @@
+/*
+COMP3133
+Assignmennt 1
+Andrew Stewart
+101418564
+*/
 const express = require('express');
 const { ApolloServer } = require('apollo-server-express');
 const typeDefs = require('./graphql/schema');
@@ -13,7 +19,6 @@ const startServer = async () => {
     typeDefs,
     resolvers,
     context: ({ req }) => {
-      // Here you can add authentication logic
       return { /* user: req.user */ };
     },
   });

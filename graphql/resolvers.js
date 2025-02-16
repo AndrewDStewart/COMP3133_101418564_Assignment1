@@ -1,3 +1,9 @@
+/*
+COMP3133
+Assignmennt 1
+Andrew Stewart
+101418564
+*/
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
